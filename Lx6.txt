@@ -1,0 +1,29 @@
+C#企业级开发技术练习6答题卡
+
+班级：     
+姓名：     
+学号：     
+
+注：请将答案放置在序号下方。*/
+
+（一）
+           Teachaer<string> stu1 = new Teachaer<string>();
+            stu1.field("姓名", "zhao");
+            Teachaer<Decimal> stu2 = new Teachaer<Decimal>();
+            stu2.field("工资", 8202.34m);
+            Teachaer<bool> stu3 = new Teachaer<bool>();
+            stu3.field("编制", bool.Parse("False"));
+            Teachaer<Single> stu4 = new Teachaer<Single>();
+            stu4.field("评价", 90.23f);
+            Teachaer<DateTime> stu5 = new Teachaer<DateTime>();
+            stu5.field("工作日期" ,Convert.ToDateTime("2001/8/31 0:00:00"));
+
+
+（二）
+
+
+  Employee<Int64> c1 = new Employee<Int64>();
+            c1.Log( 30000,"年终奖");
+            Employee<Decimal> c2 = new Employee<Decimal>();
+            c2.Log(54321.67m,"核增绩效");
+
